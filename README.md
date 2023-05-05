@@ -6,7 +6,7 @@ This Repo will create Palo Alto Networks VM-Series firewalls in Azure, it will a
 - It will also bootstrap the Palo with preconfigured policies to allow trust -> trust, deny everything else.
 - It will create an internal load balanacer, and register firewall as it's backend.
 
-![Topology](https://raw.githubusercontent.com/jye-aviatrix/terraform-azurerm-panos-azure-nva/master/20230228164208.png)
+![Topology](https://raw.githubusercontent.com/jye-aviatrix/terraform-azurerm-panos-azure-nva-on-stick/master/az-vnet-hub-with-palo-fw-on-stick-behind-lb.png)
 
 mgmt subnet will be associated with DefaultNSG, where it allows incoming connection your egress public IP for management, it also allow inocming connection within vNet CIDR, but block everything else.
 

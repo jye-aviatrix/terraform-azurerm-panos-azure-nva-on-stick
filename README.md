@@ -33,7 +33,7 @@ https://docs.paloaltonetworks.com/vm-series/10-1/vm-series-deployment/bootstrap-
 Reference to bootstrap/bootstrap.xml, find and replace VM name and static routes target IP wth following:
 ```
     ${palo_vm_name} -> Two references
-    ${trust_subnet_router} -> First IP of trust subnet, three references for the three RFC1918 ranges
+    ${trust_subnet_router} -> First IP of trust subnet, two references: one for 0/0, one for 168.63.129.16/32
 ```
 ## proiders.tf
 ```

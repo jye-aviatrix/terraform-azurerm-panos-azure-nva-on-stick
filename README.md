@@ -1,4 +1,4 @@
-# terraform-azurerm-panos-azure-nva
+# terraform-azurerm-panos-azure-nva-on-stick
 
 This Repo will create Palo Alto Networks VM-Series firewalls in Azure, it will also bootstrap the Firewall, as well as provision Azure Internal Load Balancer.
 
